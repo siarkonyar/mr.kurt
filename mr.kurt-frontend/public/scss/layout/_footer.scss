@@ -1,0 +1,22 @@
+.footer-list{
+	.footer-list-item{
+		margin-top: 0.5rem;
+		.footer-list-item-link{
+			text-decoration: none;
+			color: white;
+		}
+	}
+
+	
+}
+
+.footer-social-media{
+	margin-top: 2rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	a{
+		margin: 1rem;
+	}
+}

@@ -1,0 +1,72 @@
+.home {
+	.f8-background {
+		background-color: #f8f8f8;
+	}
+
+	.owl-prev {
+		width: 2rem;
+		height: 2rem;
+		position: absolute;
+		top: 40%;
+		display: block !important;
+		border: 0px solid black;
+		background-color: white !important;
+		&:hover {
+			color: black !important;
+		}
+	}
+
+	.owl-next {
+		width: 2rem;
+		height: 2rem;
+		position: absolute;
+		top: 40%;
+		right: 0px;
+		display: block !important;
+		border: 0px solid black;
+		background-color: white !important;
+		&:hover {
+			color: black !important;
+		}
+	}
+	.owl-prev i,
+	.owl-next i {
+		transform: scale(1, 6);
+		color: #ccc;
+	}
+
+	.editors-choices {
+		border: 1px solid #b3b3b3;
+		border-radius: 5px;
+		background-color: white;
+	}
+
+	.explore-now-text {
+		padding-bottom: 0.7rem;
+		&::after {
+			content: "Explore Now";
+			color: white;
+			background-color: #b18f3a;
+			position: absolute;
+			bottom: 10%;
+			right: 10%;
+			font-weight: bold;
+			font-size: large;
+			border-radius: 5px;
+			padding: 10px;
+		}
+	}
+
+	.main-page-information-cards {
+		.main-page-information-card {
+			width: 30rem;
+			padding: 0.5rem;
+			margin: 0.5rem;
+			color: #b3b3b3;
+			text-align: center;
+			border: 1px solid #b3b3b3;
+			border-radius: 5px;
+			background-color: white;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.about-us-header {
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+
+	.about-us-header-list {
+		.about-us-header-list-item {
+			margin-right: 1rem;
+			margin-left: 1rem;
+			.about-us-header-link {
+				font-weight: bold;
+				text-decoration: none;
+				color: white;
+			}
+
+			a.active {
+				font-weight: bold;
+				color: #38aa63;
+			}
+		}
+	}
+}

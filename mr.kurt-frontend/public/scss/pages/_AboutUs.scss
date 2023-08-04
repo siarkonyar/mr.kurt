@@ -1,0 +1,25 @@
+#AboutUs{
+	padding-top:2rem;
+	padding-bottom:2rem;
+	text-align: center;
+	.about-us-title{
+		font-weight: bolder;
+		padding-bottom: 0.75rem;
+	}
+	.about-us-youtube-videos{
+		width: 100%;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		iframe{
+			padding: 0.5rem;
+		}
+	}
+
+	.corporate-information{
+		padding: 1rem;
+		h3{
+			font-weight: bolder;
+			padding: 1rem;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+@media (min-width: 400px) {
+	.category-list{
+		justify-content: space-around;
+		.category-list-button{
+			border: none;
+			border-radius: 0;
+			background-color: black;
+			border-right: 1px solid gray;
+			border-left: 1px solid gray;
+		}
+		.category-list-category-expand-button{
+			display: none;
+		}
+
+		.category-list-category-list{
+			flex-direction: row;
+		}
+	}
+}
+
+.category-list{
+	background-color: black;
+	border-top: 1px solid gray;
+	display: flex;
+	box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+	.category-list-button{
+		border: none;
+		border-radius: 0;
+		background-color: black;
+		border-right: 1px solid gray;
+		border-left: 1px solid gray;
+		font-weight: bold;
+	}
+	.category-list-category-list{
+		display: flex;
+		.discounted-products-button{
+			color: #8FDB4D;
+		}
+	}
+}
