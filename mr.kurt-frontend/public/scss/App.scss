@@ -1,14 +1,17 @@
-@import "pages/AboutUs";
+@import "pages/aboutUs";
 @import "pages/home";
 @import "pages/contactUs";
 @import "pages/productsByCategory";
 @import "pages/productDetail";
+@import "pages/blog";
 
 @import "base/main";
 @import "base/colors";
+@import "base/fonts";
 
 @import "components/productCard";
 @import "components/productGroup";
+@import "components/blogPost";
 
 @import "layout/footer";
 @import "layout/secondCategoryList";

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import logo from '../assets/CompanyLogo.png'
+import logo from '../assets/logo.svg'
 import paypal from '../assets/footer/payments/paypal.png'
 import masterCard from '../assets/footer/payments/masterCard.png'
 import visa from '../assets/footer/payments/visa.png'
@@ -19,7 +19,7 @@ export default function Footer() {
 
 						</div>
 
-						<div className='col-md-3 col-12'>
+						<div className='col-sm-3 col-6'>
 							<h4 className='my-4'>Information</h4>
 							<ul className='footer-list list-unstyled'>
 								<li className='footer-list-item'>
@@ -32,7 +32,10 @@ export default function Footer() {
 									Our Website
 								</li>
 								<li className='footer-list-item'>
-									Blog
+									<Link to={'/blog'} className='footer-list-item-link'>
+										Blog
+									</Link>
+
 								</li>
 								<li className='footer-list-item'>
 									Career
@@ -55,7 +58,7 @@ export default function Footer() {
 							</ul>
 						</div>
 
-						<div className='col-md-3 col-12'>
+						<div className='col-sm-3 col-6'>
 							<h4 className='my-4'>Help Center</h4>
 							<ul className='footer-list list-unstyled'>
 								<li className='footer-list-item'>
@@ -79,7 +82,7 @@ export default function Footer() {
 								</li>
 							</ul>
 						</div>
-						<div className='col-md-3 col-12'>
+						<div className='col-sm-3 col-6'>
 							<h4 className='my-4'>Brands</h4>
 							<ul className='footer-list list-unstyled'>
 								<li className='footer-list-item'>

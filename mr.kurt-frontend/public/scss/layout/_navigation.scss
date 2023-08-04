@@ -1,6 +1,6 @@
 .nav {
 	padding-top: 0rem;
-	padding-bottom:1rem;
+	padding-bottom: 1rem;
 	background-color: black;
 
 	.nav-logo {
@@ -42,7 +42,26 @@
 		}
 	}
 
-	.nav-flag{
+	.nav-flag {
 		width: 3rem;
 	}
 }
+
+.curved-text-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	margin-bottom: 20px;
+  }
+  
+  svg {
+	width: 400px;
+  }
+  
+  .curved-text {
+	font-size: 24px;
+	fill: white;
+	text-anchor: middle;
+	dominant-baseline: middle;
+  }

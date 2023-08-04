@@ -145,10 +145,25 @@ export default function ProductDetail(props) {
 							{product.quantityPerUnit}
 						</h3>
 						<div className='row d-flex align-items-center'>
-							<p className='product-detail-price col-12 col-sm-6'>
-								{product.unitPrice}
-								<span><i class="bi bi-currency-pound"></i></span>
-							</p>
+							<div className=' col-12 col-sm-6'>
+								<div className='d-flex'>
+									<p className='text-decoration-line-through fs-2 text-secondary mb-0'>
+										{product.unitPrice}
+										<span><i class="bi bi-currency-pound"></i></span>
+									</p>
+									<div className='product-detail-discount bg-green'>
+										<p className='mb-0 fs-4'>
+											20%
+										</p>
+
+									</div>
+								</div>
+								<p className='product-detail-price'>
+									{product.unitPrice}
+									<span><i class="bi bi-currency-pound"></i></span>
+								</p>
+
+							</div>
 
 							<div className='col-12 col-sm-6 d-flex fs-3'>
 								<i class="bi bi-star-fill star-color "></i>
@@ -183,17 +198,51 @@ export default function ProductDetail(props) {
 							</div>
 						</div>
 
-						<div className='product-detail-like my-5'>
-							<button className='product-detail-like-button'>
-								<i class="bi bi-heart-fill"></i> <span>
-									Like
-								</span>
-							</button>
+						<div className='product-detail-like my-5 row align-items-center'>
+							<div className='col-12 col-md-6 mb-3'>
+								<button className='product-detail-like-button'>
+									<i class="bi bi-heart-fill"></i> <span>
+										Like
+									</span>
+								</button>
+								<button className='product-detail-like-button'>
+									<i class="bi bi-file-arrow-down-fill"></i>
+									<span>
+										Save
+									</span>
+								</button>
+							</div>
+
+							<div className='col-12 col-md-6 fs-1 d-flex'>
+								<p className='whatssapp-color mx-2'>
+									<i class="bi bi-whatsapp"></i>
+								</p>
+								<p className='mx-2'>
+									<i class="bi bi-chat-dots-fill"></i>
+								</p>
+								<p className='mx-2'>
+									<i class="bi bi-telephone-fill"></i>
+								</p>
+							</div>
+
+						</div>
+
+						<div className='row'>
+							<div className='col-12 col-md-6 px-2'>
+								<button className='product-detail-corporate-tracking-button py-2'>
+									Corporate Tracking
+								</button>
+							</div>
+							<div className='col-12 col-md-6 px-2'>
+								<button className='product-detail-export-button py-2'>
+									Export
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<ProductGroup products={products} header={'Similar Products'} productAmount={4}/>
+				<ProductGroup products={products} header={'Similar Products'} productAmount={4} />
 			</Container>
 
 		</div>

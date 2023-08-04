@@ -9,6 +9,7 @@ import AboutUs from '../pages/AboutUs'
 import ContactUs from '../pages/ContactUs'
 import ProductDetail from '../pages/ProductDetail'
 import SecondCategoryList from './SecondCategoryList'
+import Blog from '../pages/Blog'
 
 export default function DashBoard() {
 	return (
@@ -22,6 +23,7 @@ export default function DashBoard() {
 				<Route exact path='/products-by-category' Component={ProductsByCategory}/>
 				<Route exact path='/about-us' Component={AboutUs}/>
 				<Route exact path='/contact-us' Component={ContactUs}/>
+				<Route exact path='/blog' Component={Blog}/>
 			</Routes>
 			<Footer/>
 		</div>

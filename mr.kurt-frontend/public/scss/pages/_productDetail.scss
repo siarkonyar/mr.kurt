@@ -176,6 +176,7 @@
 
 .product-detail-like{
 	.product-detail-like-button{
+		margin-right: 1rem;
 		border: none;
 		padding-right: 1rem;
 		padding-left: 1rem;
@@ -185,4 +186,27 @@
 		background-color: #dddddd;
 		border-radius: 0.3rem;
 	}
+}
+
+.product-detail-discount{
+	color: white;
+	border-radius: 0.3rem;
+	align-items: center;
+	display: flex;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	font-weight: bold;
+}
+
+.product-detail-corporate-tracking-button{
+	width: 100%;
+	color: white;
+	border: none;
+	background-color: #253f3d;
+}
+.product-detail-export-button{
+	width: 100%;
+	color: white;
+	border: none;
+	background-color: #b18f3a;
 }
